@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF" >
+    <include
+        android:id="@+id/layout_head_add_follow"
+        android:layout_width="wrap_content"
+        layout="@layout/layout_header" />
+    <RelativeLayout
+        android:id="@+id/rela_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_head_add_follow"
+        android:background="#EEEEF9"
+        android:padding="15dp" >
+
+        <AutoCompleteTextView
+            android:id="@+id/tv_add_follow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_search_bg"
+            android:completionThreshold="1"
+            android:drawableLeft="@drawable/search"
+            android:textColor="#000"
+            android:gravity="center"
+            android:hint="@string/add_follow_search"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="15sp" />
+    </RelativeLayout>
+	
+    <ListView 
+        android:id="@+id/lv_add_follow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rela_search"
+        android:divider="#EEEEF9"
+        android:dividerHeight="0.5dp"
+        android:cacheColorHint="#00000000"/>
+</RelativeLayout>

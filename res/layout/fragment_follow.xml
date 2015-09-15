@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    
+    <View
+        android:id="@+id/follow_cutline"
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_alignParentTop="true"
+        android:background="#FFF" />
+
+    <LinearLayout
+        android:id="@+id/linear_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/follow_cutline"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#DBDBEA"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tv_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/title_order"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="@string/title_name"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/title_time"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/follow_treat_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear_title"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:divider="#EEEEF1"
+        android:dividerHeight="0.5px"
+        android:scrollingCache="false"
+        android:cacheColorHint="#00000000"
+        android:scrollbars="none" />
+    
+
+</RelativeLayout>

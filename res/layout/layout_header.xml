@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/function_head"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#1BB2C7" >
+
+        <TextView
+            android:id="@+id/function_head_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:padding="5dp"
+            android:textColor="#FFF"
+            android:text="@string/back_up"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/back" />
+
+        <TextView
+            android:id="@+id/function_head_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/head_appoin"
+            android:textColor="#fff"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/function_head_remine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:textColor="#FFF"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:text="@string/add" />
+    </RelativeLayout>
+
+</LinearLayout>

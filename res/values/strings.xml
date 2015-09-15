@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeartCanBaoDocVer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- 登陆 -->
+    <string name="login">登录</string>
+    <string name="login_phone">手机号</string>
+    <string name="login_psw">密码</string>
+
+    <!-- TabHost ContentDescription -->
+    <string name="appoin">预约</string>
+    <string name="follow">随访</string>
+    <string name="patient">患者</string>
+    <string name="consultation">会诊</string>
+    <string name="me">我</string>
+    
+    <!-- 添加 -->
+    <string name="add">添加</string>
+    
+    <!-- 返回 -->
+    <string name="back_up">返回</string>
+
+    <!-- 头部 -->
+    <string name="head_appoin">预约管理</string>
+    <string name="head_follow">随访服务</string>
+    <string name="head_patient">患者</string>
+    <string name="head_patient_info">患者信息</string>
+    <string name="head_consulation">会诊</string>
+    <string name="head_me">我</string>
+    
+    <!-- 预约管理 -->
+    <string name="head_teat">待处理</string>
+    <string name="head_agree">已同意</string>
+    <string name="head_refused">已拒绝</string>
+    <string name="title_order">序号</string>
+    <string name="title_name">姓名</string>
+    <string name="title_time">时间</string>
+    <string name="dialog_agree">同意</string>
+    <string name="dialog_refuse">拒绝</string>
+    <string name="dialog_yes">是的</string>
+    <string name="cancel">取消</string>
+    <!-- 添加随访 -->
+    <string name="add_follow_search">搜索</string>
+    
+</resources>

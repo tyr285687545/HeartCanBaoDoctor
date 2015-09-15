@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:background="#FFF"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/item_tv_order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/item_tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/item_tv_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/item_tv_state"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:background="@drawable/appoin_listview_item_btn"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="@string/appoin"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+  
+
+</LinearLayout>
